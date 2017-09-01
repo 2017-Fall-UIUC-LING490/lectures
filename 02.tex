@@ -1,0 +1,77 @@
+\documentclass{beamer}
+\input{preamble}
+
+
+\title{Computational Morphology}
+\author{Lane Schwartz}
+\institute[shortinst]{University of Illinois at Urbana-Champaign}
+
+\date{Week 1 of 16}
+
+\begin{document}
+
+% Specify that no bibliography should be printed
+\bibliographystyle{plainnat}
+
+\frame{\titlepage}
+
+
+\frame {
+\frametitle{Quiz}
+
+}
+
+\frame{
+\frametitle{foma}
+
+\begin{itemize}
+\item Add /opt/foma/bin to PATH
+\end{itemize}
+
+}
+
+
+\frame{
+\frametitle{Practice using dot to draw finite-state machines}
+
+\begin{itemize}
+\item Recreate figures from Beesley and Karttunen, Chapter 1 using dot
+\item View the figures directly using xdot
+\item Use dot -Tpdf to create pdf files of the images
+\item Use scp to copy the resulting pdf files to your local machine
+\end{itemize}
+
+}
+
+
+\frame{
+\frametitle{Practice using LaTeX}
+
+\begin{itemize}
+\item \href{https://www.overleaf.com}{Introduction to Overleaf}
+\item \href{https://www.overleaf.com/help/89-how-to-create-a-very-basic-hello-world-document-using-latex}{Create a sample document}
+\item Upload your pdf images to overleaf
+\item Use the \href{https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions\#Figures}{figure environment} and \href{https://en.wikibooks.org/wiki/LaTeX/Importing_Graphics\#Importing_external_graphics}{includegraphics to include your images} as figures
+\item \href{https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions\#Captions}{Add captions}
+\item \href{https://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing}{Use label and ref to refer to figures}
+\end{itemize}
+
+}
+
+\begin{frame}[fragile]
+\frametitle{Add a new Github remote}
+
+Replace USERNAME with your actual Github username
+
+\begin{verbatim}
+git remote add github \
+  https://github.com/2017-Fall-UIUC-LING490/USERNAME-day02
+
+git push -u github master
+\end{verbatim}
+
+\end{frame}
+
+
+
+\end{document}
